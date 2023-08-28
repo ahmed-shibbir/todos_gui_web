@@ -38,4 +38,4 @@ st.text_input(label="", placeholder="Add new todo...",
               on_change=add_todo, key="new_todo")
 
 # Session state display for convenience of coding(to be removed later)
-st.session_state
+# st.session_state
