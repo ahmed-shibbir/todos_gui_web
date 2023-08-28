@@ -13,6 +13,7 @@ st.write("This app is to regularly update daily todos list.")
 todos = functions.get_todos()
 
 
+
 # Function to add an item to the todos list
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
